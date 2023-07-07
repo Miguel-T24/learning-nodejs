@@ -31,10 +31,19 @@ const fs = require('fs')
 
 // Reemplazar todo el contenido del archivo
 
-fs.writeFile('index.html', 'contenido nuevo',(err)=>{
-    if(err){
-        throw err
-    }else{
-        console.log('Contenido reemplazado exitosamente!')
-    }
-});
+// fs.writeFile('index.html', 'contenido nuevo',(err)=>{
+//     if(err){
+//         throw err
+//     }else{
+//         console.log('Contenido reemplazado exitosamente!')
+//     }
+// });
+
+// Eliminar Archivos
+// fs.unlink('./prueba.html',(err)=>{
+//     if(err){
+//         throw err;
+//     }else{
+//         console.log('Archivo Eliminado');
+//     }
+// });
