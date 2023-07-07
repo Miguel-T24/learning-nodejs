@@ -21,11 +21,20 @@ const fs = require('fs')
 // })
 
 // Add a content to final of the file
-fs.appendFile('index.html','<p>Hola</p>', (err) =>{
-    if(err){
-        throw err;
-    }else{
-        console.log('Archivo actualizado!')
-    }
+// fs.appendFile('index.html','<p>Hola</p>', (err) =>{
+//     if(err){
+//         throw err;
+//     }else{
+//         console.log('Archivo actualizado!')
+//     }
+// })
 
-})
+// Reemplazar todo el contenido del archivo
+
+fs.writeFile('index.html', 'contenido nuevo',(err)=>{
+    if(err){
+        throw err
+    }else{
+        console.log('Contenido reemplazado exitosamente!')
+    }
+});
