@@ -20,6 +20,8 @@ const fs = require('fs')
 //     }
 // })
 
+
+
 // Add a content to final of the file
 // fs.appendFile('index.html','<p>Hola</p>', (err) =>{
 //     if(err){
@@ -38,6 +40,8 @@ const fs = require('fs')
 //         console.log('Contenido reemplazado exitosamente!')
 //     }
 // });
+
+
 
 // Eliminar Archivos
 // fs.unlink('./prueba.html',(err)=>{
