@@ -9,6 +9,7 @@ const server = http.createServer((req,res)=>{
         case 'POST':
             return manejarSolicitudPost(req,res);
         default:
+            res.statusCode = 501;
             console.log(`El metodo usado no puede ser manejado por el servidor: ${method}`);
     }
 });
