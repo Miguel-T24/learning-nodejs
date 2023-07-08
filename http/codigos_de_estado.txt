@@ -1,0 +1,16 @@
+* (100 - 199) Respuestas informativas
+* (200 - 299) Respuestas Satisfactorias
+* (300 - 399) Redirecciones
+* (400 - 499) Errores de los clientes
+* (500 - 599) Errores de los servidores
+
+Los mascomunes
+
+* 200 OK - Respuesta fue exitosa
+
+* 400 Bad Request - El servidor no pudo interpretar la solicitud
+
+* 404 Not Found - El servidor no pudo encotrar el recurso solicitado
+
+* 500 Internal Server Error - El Servidor encontro una situacion que no sabe como manejar.
+
