@@ -6,7 +6,7 @@ const servidor = http.createServer((req,res) =>{
     res.end('Hola, Mundo');
 });
 
-const PUERTO = 3000;
+const PUERTO = 3001;
 
 servidor.listen(PUERTO, ()=>{
     console.log(`El servidor esta escuchando en el puerto: ${PUERTO}`);
